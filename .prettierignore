@@ -1,0 +1,11 @@
+node_modules
+
+# Personal files for development
+ToDo.txt
+Questions.txt
+env
+README.md
+
+# Packages
+package-lock.json
+package.json
