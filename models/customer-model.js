@@ -11,11 +11,11 @@ const CustomerSchema = new Schema({
     type: String,
     required: true
   },
-  name: {
+  firstName: {
     type: String,
     required: true
   },
-  surname: {
+  lastName: {
     type: String,
     required: true
   },

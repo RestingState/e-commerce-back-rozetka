@@ -10,8 +10,8 @@ const registerSchema = {
       maxLength: 30,
       format: 'password'
     },
-    name: { type: 'string', maxLength: 50 },
-    surname: { type: 'string', maxLength: 50 },
+    firstName: { type: 'string', maxLength: 50 },
+    lastName: { type: 'string', maxLength: 50 },
     middleName: { type: 'string', maxLength: 50 },
     phone: { type: 'string' },
     email: { type: 'string', format: 'email' },
@@ -20,7 +20,7 @@ const registerSchema = {
     interfaceLanguage: { type: 'string' },
     additionalInfo: { type: 'array' }
   },
-  required: ['login', 'password', 'name', 'surname', 'phone', 'email']
+  required: ['login', 'password', 'firstName', 'lastName', 'phone', 'email']
 };
 
 const loginSchema = {
